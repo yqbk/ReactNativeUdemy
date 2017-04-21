@@ -1,12 +1,20 @@
 import React from 'react'
 import {
-  AppRegistry
+  AppRegistry,
+  View
 } from 'react-native'
 
 import Header from './src/components/header'
+import AlbumList from './src/components/AlbumList'
 
 const App = () => (
-  <Header headerText={'Albums'} />
+  <View>
+    <Header headerText={'Albums'} />
+    <AlbumList />
+    <AlbumList />
+    <AlbumList />
+    <AlbumList />
+  </View>
 )
 
 AppRegistry.registerComponent('ReactNativeUdemy', () => App)
