@@ -11,9 +11,6 @@ const App = () => (
   <View>
     <Header headerText={'Albums'} />
     <AlbumList />
-    <AlbumList />
-    <AlbumList />
-    <AlbumList />
   </View>
 )
 
